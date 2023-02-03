@@ -1,0 +1,30 @@
+/* tous mes labels prennent 100px et sont alignés sur la droite */
+
+form label{
+    display: inline-block;
+    width: 350px;
+    text-align: right;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+.no-label{
+    margin-left: 350px;
+}
+
+.radio-container{
+    margin-left: 350px;
+    display: flex;
+}
+
+.checkbox-container{
+    display: inline-block;
+}
+
+.radio-container label, .checkbox-container label{
+    width: auto;
+    margin-right: 20px;
+}
+
